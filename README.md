@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Fork and clone from the following repository for the dependant backend 
 (follow README for instructions):
-https://github.com/BennyLouie/Simple-Pokemon-Battles-backend
+https://github.com/BennyLouie/jp-draws-backend
 
 Fork and clone from this repository.
 
