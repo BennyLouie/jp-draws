@@ -14,6 +14,10 @@ Fork and clone from this repository.
 
 Installs all the dependant modules required to run this React App.
 
+### `node server`
+
+Starts up the node server for the app in order to user Stripe API.
+
 ### `npm start`
 
 Starts up this project. MAke sure to run the rails backend first. That way you will be prompted to open this app on a different PORT.
