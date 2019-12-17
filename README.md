@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## This project has been released on heroku: https://jpdraws.herokuapp.com/
+
 ## Before Starting up this project
 
 Fork and clone from the following repository for the dependant backend 
