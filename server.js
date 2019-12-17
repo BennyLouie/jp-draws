@@ -1,10 +1,19 @@
-const app = require("express")()
-const cors = require('cors')
-const dotenv = require('dotenv')
-dotenv.config()
-const stripe = require("stripe")(process.env.REACT_APP_SECRET_KEY)
+import application from 'express'
+import cors from 'cors'
+import dotenv from 'dotenv'
+import stripeserver from 'stripe'
+import bodyparser from 'body-parser'
 
-app.use(require("body-parser").text());
+// const app = require("express")()
+// const cors = require('cors')
+// const dotenv = require('dotenv')
+const app = application()
+dotenv.config()
+// const stripe = require("stripe")(process.env.REACT_APP_SECRET_KEY)
+const stripe = stripeserver(process.env.REACT_APP_SECRET_KEY)
+
+// app.use(require("body-parser").text());
+app.use(bodyparser.text())
 app.use(cors())
 
 app.get('/charge', function (req, res) {
