@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## This project has been released on heroku: https://jpdraws.herokuapp.com/
 
+## Demo: https://youtu.be/iGxIrhS4AY4
+
 ## Tools used
 
 This app is built using Rails [6.0] as a backend to store and retrieve data using a PostgreSQL database. Bcrypt and JWT Auths were utilized to manage secure passwords and user logins.
