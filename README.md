@@ -28,7 +28,7 @@ Starts up the node server for the app in order to user Stripe API.
 
 ### `npm start`
 
-Starts up this project. MAke sure to run the rails backend first. That way you will be prompted to open this app on a different PORT.
+Starts up this project. Make sure to run the rails backend first. That way you will be prompted to open this app on a different PORT.
 
 ### A Brief Summary
 
