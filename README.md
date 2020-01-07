@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Demo: https://youtu.be/iGxIrhS4AY4
 
+## Blog: https://medium.com/@bennylouie/mod-4-project-jp-draws-4e90f14e9f0d
+
 ## Tools used
 
 This app is built using Rails [6.0] as a backend to store and retrieve data using a PostgreSQL database. Bcrypt and JWT Auths were utilized to manage secure passwords and user logins.
