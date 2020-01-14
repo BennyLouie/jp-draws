@@ -1,19 +1,17 @@
-import application from 'express'
-import cors from 'cors'
-import dotenv from 'dotenv'
-import stripeserver from 'stripe'
-import bodyparser from 'body-parser'
+// import application from 'express'
+// import cors from 'cors'
+// import dotenv from 'dotenv'
+// import stripeserver from 'stripe'
+// import bodyparser from 'body-parser'
 
-// const app = require("express")()
-// const cors = require('cors')
-// const dotenv = require('dotenv')
-const app = application()
+const app = require("express")()
+const cors = require('cors')
+const dotenv = require('dotenv')
 dotenv.config()
-// const stripe = require("stripe")(process.env.REACT_APP_SECRET_KEY)
-const stripe = stripeserver(process.env.REACT_APP_SECRET_KEY)
+const stripe = require("stripe")(process.env.REACT_APP_SECRET_KEY)
+const PORT = process.env.PORT || 9000
 
-// app.use(require("body-parser").text());
-app.use(bodyparser.text())
+app.use(require("body-parser").text());
 app.use(cors())
 
 app.get('/charge', function (req, res) {
@@ -21,6 +19,7 @@ app.get('/charge', function (req, res) {
 })
 
 app.post('/charge', async (req, res) => {
+  console.log("yay?", process.env.REACT_APP_SECRET_KEY, req.body)
   let bodyStuff = req.body.split('&')
   let token = bodyStuff[0]
   let amount = (parseInt(bodyStuff[1]) * 100).toString()
@@ -39,4 +38,4 @@ app.post('/charge', async (req, res) => {
   }
 });
 
-app.listen(9000, () => console.log("Listening on port 9000"))
+app.listen(PORT, () => console.log(`Listening to node server on port ${PORT}`))
