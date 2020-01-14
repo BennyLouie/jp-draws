@@ -2,6 +2,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## This project has been released on heroku: https://jpdraws.herokuapp.com/
 
+## Demo: https://youtu.be/iGxIrhS4AY4
+
+## Blog: https://medium.com/@bennylouie/mod-4-project-jp-draws-4e90f14e9f0d
+
+## Tools used
+
+This app is built using Rails [6.0] as a backend to store and retrieve data using a PostgreSQL database. Bcrypt and JWT Auths were utilized to manage secure passwords and user logins.
+
+The frontend uses React JS to improve user interface and incorporates Stripe API to manage money transactions. It is styled using Vanilla CSS.
+
 ## Before Starting up this project
 
 Fork and clone from the following repository for the dependant backend 
@@ -20,7 +30,7 @@ Starts up the node server for the app in order to user Stripe API.
 
 ### `npm start`
 
-Starts up this project. MAke sure to run the rails backend first. That way you will be prompted to open this app on a different PORT.
+Starts up this project. Make sure to run the rails backend first. That way you will be prompted to open this app on a different PORT.
 
 ### A Brief Summary
 
