@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## This project has been released on heroku: https://jpdraws.herokuapp.com/
 
-## Demo: https://youtu.be/NZ8XEAmZELM (Created by my partner: https://github.com/kmacancela)
+## Demo: https://youtu.be/UtRqi_Pbk4k
 
 ## Blog: https://medium.com/@bennylouie/mod-4-project-jp-draws-4e90f14e9f0d
 
